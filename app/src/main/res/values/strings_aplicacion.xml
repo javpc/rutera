@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">rutera</string>
+
+
+    <string name="txt_advertencia_proyecto">
+        La precisión de los datos recolectados depende de la calidad del dispositivo y la calidad de señeal GPS recibida.
+        No es propósito de esta aplicación ofrecer información de rendimiento para el deportista profesional.
+        Los datos pueden ser erroneos, modificados y eliminados, no debe usarse para competencias.
+        Es simplemente un accesorio.
+        Esta utilidad la he desarrollado para uso personal y no posee fines comerciales ni profesionales.
+    </string>
+
+    <string name="traducidopor"></string>
+
+    <string name="txt_ayuda_descripcion">
+        Ofrece velocímetro según el GPS, tiempo transcurrido, almacena el trayecto recorrido y otros datos para obtener una perspectiva del rendimiento y comparar con datos anteriores o con otros usuarios.
+    </string>
+
+</resources>

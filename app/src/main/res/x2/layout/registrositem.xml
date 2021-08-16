@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:stretchColumns="0,1,2"
+
+    >
+
+    <TableRow
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00 01-01-2018"
+            android:id="@+id/registros_fechahora"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="información"
+            android:id="@+id/registros_informacion"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registros_estado"
+            android:text="  "
+            android:padding="10dp"
+            />
+
+
+
+        </TableRow>
+
+
+
+
+
+
+</TableLayout>

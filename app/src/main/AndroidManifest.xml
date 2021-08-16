@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pc.javier.menulateralcompatible">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="pc.javier.aplicacion.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="aplicacion.actividad.ActividadPanel"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="pc.javier.aplicacion.MainActivity"
+            />
+
+        <activity
+            android:name="aplicacion.actividad.ActividadRegistros"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="aplicacion.actividad.ActividadRegistros"
+            />
+
+        <activity
+            android:name="aplicacion.actividad.ActividadSesiones"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="pc.javier.aplicacion.MainActivity"
+            />
+
+        <activity
+            android:name="aplicacion.actividad.ActividadAyuda"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="pc.javier.aplicacion.MainActivity"
+            />
+
+
+
+
+
+
+        <activity
+            android:name="aplicacion.control.panico.PanicoActivador"
+
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="info.guardianproject.panic.action.TRIGGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="aplicacion.control.panico.ActividadPanicoOpciones"
+            android:label="@string/boton_de_panico"
+            >
+            <intent-filter>
+                <action android:name="info.guardianproject.panic.action.CONNECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <receiver android:name="aplicacion.difusion.ReceptorClima"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="pc.javier.fotoclima.clima" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

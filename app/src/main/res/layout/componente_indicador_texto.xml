@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="----"
+        android:id="@+id/componente_indicador_valor"
+        android:textSize="@dimen/indicador_valor"
+
+        android:shadowColor="#000"
+        android:textColor="#fff"
+        android:shadowRadius="15"
+
+        android:alpha="1"
+
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="@dimen/indicador_unidad"
+        android:id="@+id/componente_indicador_espacio"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/componente_indicador_leyenda"
+            android:textSize="@dimen/indicador_unidad"
+            android:shadowColor="#000"
+            android:textColor="#fff"
+            android:shadowRadius="5"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/componente_indicador_unidad"
+            android:textSize="@dimen/indicador_unidad"
+            android:shadowColor="#000"
+            android:textColor="#fff"
+            android:shadowRadius="5"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</merge>

@@ -1,0 +1,12 @@
+La velocidad según el GPS.
+
+* Tiempo transcurrido.
+* Velocidad actual.
+* Velocidad máxima.
+* Ubicación actual.
+* Trayecto recorrido.
+* Trayecto con velocidad en cada punto.
+* Distancia en cada punto.
+* Registro de las coordenadas recolectadas.
+* Mapa de Open Street Map.
+* Obviamente no usa servicios de Google (PRIVACIDAD)

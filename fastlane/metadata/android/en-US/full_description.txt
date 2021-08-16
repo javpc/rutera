@@ -1,0 +1,12 @@
+The speed according to the GPS.
+
+* Elapsed time.
+* Current speed.
+* Maximum speed.
+* Current location.
+* Route covered.
+* Travel with speed at each point.
+* Distance at each point.
+* Record of collected coordinates.
+* Open Street Map.
+* Obviously does not use Google services (PRIVACY)

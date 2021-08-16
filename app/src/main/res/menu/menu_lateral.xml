@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/menu_iniciar"
+            android:icon="@drawable/play"
+            android:title="@string/Iniciar"
+            android:onClick="clicMenu"
+            />
+        <item
+            android:id="@+id/menu_detener"
+            android:icon="@drawable/stop"
+            android:title="@string/Detener"
+            android:onClick="clicMenu"
+            />
+
+
+        <item
+            android:id="@+id/menu_registros"
+            android:icon="@drawable/map"
+            android:title="@string/Registros"
+            android:onClick="clicMenu"/>
+
+        <item
+            android:id="@+id/menu_fotografia"
+            android:icon="@drawable/camera_retro"
+            android:title="@string/Fotografia"
+            android:onClick="clicMenu"
+
+            />
+
+        <item
+            android:id="@+id/menu_ayuda"
+            android:icon="@drawable/info_circle"
+            android:title="@string/Ayuda"
+            android:onClick="clicMenu"
+
+            />
+
+
+    </group>
+
+    <item android:title="Sitios">
+        <menu>
+            <item
+                android:id="@+id/menu_proyectos"
+                android:icon="@drawable/briefcase"
+                android:title="@string/Proyectos"
+                android:onClick="clicMenu"
+                />
+            <item
+                android:id="@+id/menu_donar"
+                android:icon="@drawable/heart"
+                android:title="@string/Colabora"
+                android:onClick="clicMenu"
+                />
+        </menu>
+    </item>
+
+</menu>

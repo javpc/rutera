@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="indicador_valor">70sp</dimen>
+    <dimen name="indicador_unidad">20sp</dimen>
+    <dimen name="indicador_mini_valor">30sp</dimen>
+</resources>

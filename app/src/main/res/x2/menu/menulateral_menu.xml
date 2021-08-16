@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+
+
+        <item
+            android:title="@string/opciones"
+            android:icon="@drawable/cog"
+            android:id="@+id/menu_opciones"
+            android:onClick="menuClick"
+            />
+
+        <item
+            android:title="@string/registros"
+            android:icon="@drawable/save"
+            android:id="@+id/menu_registros"
+            android:onClick="menuClick"
+            />
+
+        <item
+            android:title="@string/opciones"
+            android:icon="@drawable/cog"
+            android:id="@+id/menu_opciones"
+            android:onClick="menuClick"
+            android:visible="false"
+            />
+
+
+
+        <item
+            android:title="@string/ayuda"
+            android:icon="@drawable/help_buoy"
+            android:id="@+id/menu_ayuda"
+            android:onClick="menuClick"
+            />
+
+        <item
+            android:title="@string/dona"
+            android:icon="@drawable/heart1"
+            android:id="@+id/menu_donar"
+            android:onClick="menuClick"
+            />
+
+
+
+    </group>
+
+
+</menu>

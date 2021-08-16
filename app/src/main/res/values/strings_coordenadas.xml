@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="latitud">latitud</string>
+    <string name="longitud">longitud</string>
+    <string name="velocidad">velocidad</string>
+    <string name="altitud">altitud</string>
+    <string name="precision">precision</string>
+    <string name="infoextra">información extra</string>
+    <string name="coordenada">coordenada</string>
+    <string name="coordenadas">coordenadas</string>
+    <string name="coordenada_fecha_hora">fecha y hora</string>
+
+    <string name="Longitud">Longitud</string>
+    <string name="Latitud">Latitud</string>
+    <string name="Velocidad">Velocidad</string>
+    <string name="Altitud">Altitud</string>
+    <string name="Precision">Precision</string>
+    <string name="Infoextra">Información extra</string>
+    <string name="Coordenada">Coordenada</string>
+    <string name="Coordenadas">Coordenadas</string>
+    <string name="coordenada_Fecha_hora">Fecha y hora</string>
+
+</resources>

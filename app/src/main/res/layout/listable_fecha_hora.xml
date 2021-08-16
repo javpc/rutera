@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15sp"
+    android:gravity="center"
+    android:alpha=".9"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ddf"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        app:srcCompat="@drawable/trash"
+        android:scaleType="centerInside"
+        android:id="@+id/registros_lista_borrar"
+
+
+        />
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00 01-01-2018"
+        android:id="@+id/registros_lista_fecha_hora"
+
+        android:textSize="@dimen/texto_grande"
+
+        android:padding="20sp"
+
+
+
+        />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

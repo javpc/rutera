@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/velocimetos_medio"
+        android:id="@+id/componente_indicador_grafico_fondo"
+        android:scaleType="fitXY"
+        android:alpha=".8"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/componente_indicador_grafico_nivel"
+        android:layout_alignRight="@id/componente_indicador_grafico_fondo"
+        android:layout_alignBottom="@id/componente_indicador_grafico_fondo"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/componente_indicador_grafico_fondo"
+        android:layout_alignRight="@id/componente_indicador_grafico_fondo"
+        android:layout_alignEnd="@id/componente_indicador_grafico_fondo">
+
+        <include layout="@layout/componente_indicador_texto"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

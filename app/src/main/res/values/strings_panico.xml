@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permitir_activar_boton_panico">Permitir activación </string>
+
+    <string name="boton_de_panico">Botón de pánico</string>
+    <string name="txt_ayuda_panico">Estas opciones configura la manera de actuar cuando se activa el botón de panico Ripple</string>
+
+
+    <string name="eliminar_base_de_datos">Eliminar la base de datos </string>
+
+</resources>

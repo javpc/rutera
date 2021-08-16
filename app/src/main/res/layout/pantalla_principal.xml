@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/princ_pantalla"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rutera"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        android:shadowRadius="10"
+
+        app:layout_constraintTop_toTopOf="@id/princ_pantalla"
+        app:layout_constraintStart_toStartOf="@id/princ_pantalla"
+        app:layout_constraintEnd_toEndOf="@id/princ_pantalla"
+        app:layout_constraintBottom_toTopOf="@id/boton_prinicipal_activar"
+
+        />
+
+
+
+
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/boton_prinicipal_activar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+
+
+
+            app:srcCompat="@drawable/play"
+
+
+            android:gravity="center"
+            android:onClick="clic_iniciar"
+            android:scaleType="fitCenter"
+            android:background="@drawable/botonprincipalredondoverde"
+
+            android:padding="50dp"
+            android:text="@string/Iniciar"
+            android:textSize="35sp"
+            android:textStyle="bold"
+
+
+
+
+            app:layout_constraintBottom_toBottomOf="@id/princ_pantalla"
+            app:layout_constraintEnd_toEndOf="@id/princ_pantalla"
+            app:layout_constraintStart_toStartOf="@id/princ_pantalla"
+            app:layout_constraintTop_toTopOf="@id/princ_pantalla" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/texto"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        android:shadowRadius="10"
+        android:onClick="clic_iniciar"
+        android:id="@+id/texto_principal_sesion"
+
+        app:layout_constraintStart_toStartOf="@id/princ_pantalla"
+        app:layout_constraintEnd_toEndOf="@id/princ_pantalla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boton_prinicipal_activar"
+
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="titulo">25sp</dimen>
+    <dimen name="texto">18sp</dimen>
+    <dimen name="texto_grande">22sp</dimen>
+    <dimen name="texto_muy_grande">26sp</dimen>
+</resources>
